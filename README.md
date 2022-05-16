@@ -26,10 +26,8 @@ Replace "file///*" with the location of the "up.html" file
 
 **Requirements for MAWDT.py**
 _Imported Libraries_
-from __future__ import print_function
-from tkinter import *
 
-from tkinter import ttk
+print_function
 
 json
 
