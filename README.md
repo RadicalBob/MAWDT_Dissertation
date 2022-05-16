@@ -25,6 +25,7 @@ Replace "file///*" with the location of the "up.html" file
 
 
 **Requirements for MAWDT.py**
+
 _Imported Libraries_
 
 print_function
@@ -44,3 +45,6 @@ shutil
 glob
 
 tkinter as tk
+
+_Directory Changes Required_
+Comments in the MAWDT file identifiy which directory is required by the program
