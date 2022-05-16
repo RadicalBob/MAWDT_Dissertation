@@ -25,3 +25,24 @@ Replace "file///*" with the location of the "up.html" file
 
 
 **Requirements for MAWDT.py**
+_Imported Libraries_
+from __future__ import print_function
+from tkinter import *
+
+from tkinter import ttk
+
+json
+
+requests
+
+hashlib
+
+time
+
+os
+
+shutil
+
+glob
+
+tkinter as tk
