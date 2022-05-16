@@ -7,15 +7,10 @@ Dissertation Source Code
 _Import Libraries_
 
 PyQt5.QtCore
-
 PyQt5.QtWidgets
-
 PyQt5.QtWebEngineWidgets
-
 sys
-
 base64
-
 requests
 
 
