@@ -4,7 +4,7 @@ Dissertation Source Code
 
 **Requirements for Webbrowser.py**
 
-_Import Libraries_
+_Imported Libraries_
 
 PyQt5.QtCore
 
@@ -22,3 +22,6 @@ requests
 _Directory Changes Required_
 
 Replace "file///*" with the location of the "up.html" file 
+
+
+**Requirements for MAWDT.py**
