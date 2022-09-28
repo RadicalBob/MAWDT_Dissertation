@@ -83,8 +83,8 @@ z = 0
 global FileName
 FileName = []
 
-API_KEY = '9affb4f33224e6af69ee5b1517d95a847132ba7c41851ac0603f8a9a279c0f2a'
-#41169e9801739d6d0fc5c9a4d643ea2e78161d6490c167ca240e6ba604ec4315
+API_KEY = ''
+#
 def filescan(): # performs a VirusTotal scan of the file then takes a decision based on the results
     global basename # import the basename variable
     global readable_hash # import the readable_hash variable
