@@ -117,7 +117,7 @@ class BrowserWindow(QMainWindow):  # the main window class
             print(url_id)
             url = "https://www.virustotal.com/api/v3/urls/" + url_id
             headers = {"Accept": "application/json",
-                       "x-apikey": "41169e9801739d6d0fc5c9a4d643ea2e78161d6490c167ca240e6ba604ec4315"}
+                       "x-apikey": ""}
             reresponse = requests.request("GET", url, headers=headers)
             reresponsedata = reresponse.json()
             for key in reresponsedata['data']['attributes']['last_analysis_results']:
@@ -209,7 +209,7 @@ class BrowserWindow(QMainWindow):  # the main window class
             url = "https://www.virustotal.com/api/v3/urls/" + url_id
             # API request headers
             headers = {"Accept": "application/json",
-                       "x-apikey": "41169e9801739d6d0fc5c9a4d643ea2e78161d6490c167ca240e6ba604ec4315"}
+                       "x-apikey": ""}
             reresponse = requests.request("GET", url, headers=headers)
             reresponsedata = reresponse.json()
             # print the result of each virus engine one by one looping through using the engine name as the identifier
